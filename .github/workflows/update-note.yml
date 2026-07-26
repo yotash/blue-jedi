@@ -1,0 +1,12 @@
+name: Update Note Articles
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check workflow
+        run: echo "Blue Jedi note update workflow is working."
