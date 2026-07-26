@@ -279,6 +279,39 @@ img {
     line-height: 1.7;
 }
 
+.articles-page__more {
+    display: block;
+
+    margin: 40px auto 0;
+    padding: 14px 28px;
+
+    background-color: transparent;
+    color: white;
+
+    border: 1px solid #475569;
+    border-radius: 8px;
+
+    font: inherit;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.articles-page__more:hover {
+    background-color: #1e293b;
+    border-color: dodgerblue;
+    transform: translateY(-2px);
+}
+
+.articles-page__more[hidden] {
+    display: none;
+}
+
 /* =====================
    About
 ===================== */

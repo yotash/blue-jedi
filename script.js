@@ -12,7 +12,7 @@ async function loadArticles() {
 
         articlesList.innerHTML = "";
 
-        articles.forEach((article) => {
+        articles.slice(0, 3).forEach((article) => {
             const card = document.createElement("a");
             card.classList.add("article-card");
             card.href = article.link;
@@ -43,7 +43,7 @@ async function loadArticles() {
 
                     <span class="article-card__link">
                         noteで読む
-                    </span>
+                </span>
                 </div>
             `;
 

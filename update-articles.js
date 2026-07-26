@@ -13,7 +13,7 @@ async function updateArticles() {
             "https://note.com/witty_avocet996/rss"
         );
 
-        const articles = feed.items.slice(0, 3).map((item) => ({
+        const articles = feed.items.map((item) => ({
             title: item.title || "",
             link: item.link || "",
             date: item.pubDate || "",
