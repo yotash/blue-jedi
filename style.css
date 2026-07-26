@@ -249,7 +249,12 @@ img {
 
     color: #cbd5e1;
 
+    overflow: hidden;
     overflow-wrap: anywhere;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
 
     line-height: 1.7;
 }
