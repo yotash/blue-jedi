@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yotash.github.io/blue-jedi/sitemap.xml
