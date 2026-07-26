@@ -5,53 +5,51 @@ async function loadArticles() {
         const response = await fetch("./articles.json");
 
         if (!response.ok) {
-            throw new Error("記事データを取得できませんでした。");
+            throw new Error("articles.jsonを取得できませんでした。");
         }
 
         const articles = await response.json();
 
         articlesList.innerHTML = "";
 
-        articles.slice(0, 3).forEach((article) => {
-            const articleCard = document.createElement("article");
+        articles.forEach((article) => {
+            const card = document.createElement("article");
+            card.classList.add("article-card");
 
-            articleCard.classList.add("article-card");
+            const formattedDate = formatDate(article.date);
 
-            articleCard.innerHTML = `
-                ${article.image
-                    ? `
-                            <img
-                                class="article-card__image"
-                                src="${article.image}"
-                                alt=""
-                            >
-                        `
-                    : ""
-                }
-
-                <p class="article-card__date">
-                    ${article.publishedAt}
-                </p>
-
-                <h3 class="article-card__title">
-                    ${article.title}
-                </h3>
-
-                <p class="article-card__description">
-                    ${article.description}
-                </p>
-
-                <a
-                    class="article-card__link"
-                    href="${article.url}"
-                    target="_blank"
-                    rel="noopener noreferrer"
+            card.innerHTML = `
+                <img
+                    class="article-card__image"
+                    src="${article.image}"
+                    alt="${escapeHtml(article.title)}"
                 >
-                    noteで読む
-                </a>
+
+                <div class="article-card__content">
+                    <p class="article-card__date">
+                        ${formattedDate}
+                    </p>
+
+                    <h3 class="article-card__title">
+                        ${escapeHtml(article.title)}
+                    </h3>
+
+                    <p class="article-card__description">
+                        ${escapeHtml(article.description)}
+                    </p>
+
+                    <a
+                        class="article-card__link"
+                        href="${article.link}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        noteで読む
+                    </a>
+                </div>
             `;
 
-            articlesList.appendChild(articleCard);
+            articlesList.appendChild(card);
         });
     } catch (error) {
         console.error(error);
@@ -62,6 +60,29 @@ async function loadArticles() {
             </p>
         `;
     }
+}
+
+function formatDate(dateString) {
+    const date = new Date(dateString);
+
+    if (Number.isNaN(date.getTime())) {
+        return "";
+    }
+
+    return new Intl.DateTimeFormat("ja-JP", {
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit"
+    }).format(date);
+}
+
+function escapeHtml(text) {
+    return String(text || "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
 }
 
 loadArticles();
