@@ -167,18 +167,27 @@ img {
     overflow: hidden;
 
     background-color: #1e293b;
+    color: inherit;
 
     border: 1px solid #334155;
-    border-radius: 12px;
+    border-radius: 14px;
+
+    text-decoration: none;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 
     transition:
-        transform 0.2s ease,
-        border-color 0.2s ease;
+        transform 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
 }
 
 .article-card:hover {
-    transform: translateY(-4px);
-    border-color: #475569;
+    transform: translateY(-8px);
+
+    border-color: dodgerblue;
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
 .article-card__image {
@@ -186,6 +195,12 @@ img {
     aspect-ratio: 16 / 9;
 
     object-fit: cover;
+
+    transition: transform 0.4s ease;
+}
+
+.article-card:hover .article-card__image {
+    transform: scale(1.03);
 }
 
 .article-card__content {

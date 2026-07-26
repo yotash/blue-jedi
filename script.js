@@ -13,8 +13,11 @@ async function loadArticles() {
         articlesList.innerHTML = "";
 
         articles.forEach((article) => {
-            const card = document.createElement("article");
+            const card = document.createElement("a");
             card.classList.add("article-card");
+            card.href = article.link;
+            card.target = "_blank";
+            card.rel = "noopener noreferrer";
 
             const formattedDate = formatDate(article.date);
 
@@ -38,14 +41,9 @@ async function loadArticles() {
                         ${escapeHtml(article.description)}
                     </p>
 
-                    <a
-                        class="article-card__link"
-                        href="${article.link}"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                    <span class="article-card__link">
                         noteで読む
-                    </a>
+                    </span>
                 </div>
             `;
 
