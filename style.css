@@ -73,22 +73,13 @@ img {
 ===================== */
 
 .hero {
-    padding: 70px 0 60px;
+    padding: 70px 0 40px;
 }
 
 .hero__content {
     max-width: 850px;
 }
 
-.hero__eyebrow {
-    margin: 0 0 20px;
-
-    color: dodgerblue;
-
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 0.18em;
-}
 
 .hero__title {
     margin: 0;
@@ -437,10 +428,6 @@ img {
         padding: 72px 0 56px;
     }
 
-    .hero__eyebrow {
-        font-size: 12px;
-        line-height: 1.6;
-    }
 
     .hero__title {
         font-size: 38px;
