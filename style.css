@@ -153,6 +153,44 @@ img {
     padding: 40px 0 80px;
 }
 
+.articles__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.articles__view-all {
+    position: relative;
+
+    color: dodgerblue;
+
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.articles__view-all::after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+
+    width: 100%;
+    height: 2px;
+
+    background-color: dodgerblue;
+
+    transform: scaleX(0);
+    transform-origin: left;
+
+    transition: transform 0.25s ease;
+}
+
+.articles__view-all:hover::after {
+    transform: scaleX(1);
+}
+
 .articles__title {
     margin: 0;
 
@@ -278,6 +316,8 @@ img {
 
     line-height: 1.7;
 }
+
+
 
 .articles-page__more {
     display: block;
