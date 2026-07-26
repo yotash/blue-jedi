@@ -228,6 +228,8 @@ nav a {
 
 @media (max-width: 768px) {
 
+    /* Header */
+
     header {
         flex-direction: column;
         align-items: flex-start;
@@ -248,6 +250,8 @@ nav a {
         font-size: 18px;
     }
 
+    /* Hero */
+
     .hero {
         padding: 80px 0;
     }
@@ -255,6 +259,24 @@ nav a {
     .hero__title {
         font-size: 42px;
         line-height: 1.25;
+    }
+
+    /* Latest Articles */
+
+    .articles {
+        padding: 60px 0;
+    }
+
+    .articles__title {
+        font-size: 32px;
+    }
+
+    .articles__list {
+        flex-direction: column;
+    }
+
+    .article-card {
+        width: 100%;
     }
 
 }
