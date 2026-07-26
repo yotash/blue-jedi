@@ -1,3 +1,7 @@
+/* =====================
+   Base
+===================== */
+
 * {
     box-sizing: border-box;
 }
@@ -7,41 +11,59 @@ html {
 }
 
 body {
-    background-color: #0f172a;
-    color: white;
-
     margin: 0;
     padding: 80px;
 
-    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: white;
+
+    font-family:
+        Arial,
+        "Hiragino Kaku Gothic ProN",
+        "Hiragino Sans",
+        Meiryo,
+        sans-serif;
+}
+
+img {
+    max-width: 100%;
 }
 
 /* =====================
    Header
 ===================== */
 
-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header h1 {
+.header__logo {
     margin: 0;
+
+    font-size: 32px;
+    letter-spacing: 0.02em;
 }
 
-nav {
+.header__nav {
     display: flex;
     align-items: center;
     gap: 24px;
 }
 
-nav a {
+.header__nav a {
     color: white;
+
     text-decoration: none;
+    font-weight: bold;
+
+    transition:
+        color 0.2s ease,
+        opacity 0.2s ease;
 }
 
-nav a:hover {
+.header__nav a:hover {
     color: dodgerblue;
 }
 
@@ -50,22 +72,36 @@ nav a:hover {
 ===================== */
 
 .hero {
-    padding: 80px 0 40px;
+    padding: 120px 0 80px;
 }
 
 .hero__content {
-    max-width: 800px;
-    padding-top: 40px;
+    max-width: 850px;
+}
+
+.hero__eyebrow {
+    margin: 0 0 20px;
+
+    color: dodgerblue;
+
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.18em;
 }
 
 .hero__title {
-    margin-top: 0;
+    margin: 0;
 
     font-size: 56px;
     line-height: 1.25;
+    letter-spacing: 0.01em;
 }
 
 .hero__description {
+    margin: 28px 0 0;
+
+    color: #cbd5e1;
+
     font-size: 22px;
     line-height: 1.7;
 }
@@ -73,20 +109,26 @@ nav a:hover {
 .hero__button {
     display: inline-block;
 
-    margin-top: 16px;
+    margin-top: 36px;
     padding: 16px 32px;
 
     background-color: dodgerblue;
     color: white;
 
+    border-radius: 8px;
+
     text-decoration: none;
     font-weight: bold;
 
-    border-radius: 8px;
+    transition:
+        background-color 0.2s ease,
+        transform 0.2s ease;
 }
 
 .hero__button:hover {
     background-color: royalblue;
+
+    transform: translateY(-2px);
 }
 
 /* =====================
@@ -94,38 +136,96 @@ nav a:hover {
 ===================== */
 
 .articles {
-    padding: 40px 0 80px;
+    padding: 80px 0;
 }
 
 .articles__title {
-    margin-top: 0;
+    margin: 0;
+
+    font-size: 32px;
+}
+
+.articles__intro {
+    margin: 12px 0 32px;
+
+    color: #94a3b8;
+
+    font-size: 16px;
 }
 
 .articles__list {
     display: flex;
+    align-items: stretch;
     gap: 32px;
 }
 
 .article-card {
+    display: flex;
     flex: 1;
+    flex-direction: column;
 
-    padding: 24px;
+    min-width: 0;
+    overflow: hidden;
 
     background-color: #1e293b;
 
+    border: 1px solid #334155;
     border-radius: 12px;
+
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.article-card:hover {
+    transform: translateY(-4px);
+
+    border-color: #475569;
+}
+
+.article-card__image {
+    display: block;
+
+    width: 100%;
+    aspect-ratio: 16 / 9;
+
+    object-fit: cover;
+}
+
+.article-card__content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+    padding: 24px;
+}
+
+.article-card__date {
+    margin: 0 0 12px;
+
+    color: #94a3b8;
+
+    font-size: 14px;
 }
 
 .article-card__title {
-    margin-top: 0;
+    margin: 0;
+
+    font-size: 20px;
     line-height: 1.5;
 }
 
 .article-card__description {
+    margin: 16px 0 24px;
+
+    color: #cbd5e1;
+
     line-height: 1.7;
 }
 
 .article-card__link {
+    margin-top: auto;
+
     color: dodgerblue;
 
     text-decoration: none;
@@ -134,6 +234,13 @@ nav a:hover {
 
 .article-card__link:hover {
     text-decoration: underline;
+}
+
+.articles__loading,
+.articles__error {
+    color: #94a3b8;
+
+    line-height: 1.7;
 }
 
 /* =====================
@@ -145,21 +252,28 @@ nav a:hover {
 }
 
 .about__title {
-    margin-top: 0;
+    margin: 0;
+
+    font-size: 32px;
 }
 
 .about__content {
     max-width: 800px;
+
+    margin-top: 32px;
 }
 
 .about__lead {
+    margin-top: 0;
+
     font-size: 28px;
     font-weight: bold;
-
     line-height: 1.6;
 }
 
 .about__text {
+    color: #cbd5e1;
+
     font-size: 18px;
     line-height: 1.8;
 }
@@ -183,14 +297,20 @@ nav a:hover {
 }
 
 .contact__title {
-    margin-top: 0;
+    margin: 0;
+
+    font-size: 32px;
 }
 
 .contact__content {
     max-width: 800px;
+
+    margin-top: 32px;
 }
 
 .contact__text {
+    color: #cbd5e1;
+
     font-size: 18px;
     line-height: 1.8;
 }
@@ -207,14 +327,20 @@ nav a:hover {
     background-color: dodgerblue;
     color: white;
 
+    border-radius: 8px;
+
     text-decoration: none;
     font-weight: bold;
 
-    border-radius: 8px;
+    transition:
+        background-color 0.2s ease,
+        transform 0.2s ease;
 }
 
 .contact__link:hover {
     background-color: royalblue;
+
+    transform: translateY(-2px);
 }
 
 /* =====================
@@ -225,19 +351,21 @@ nav a:hover {
     margin-top: 80px;
     padding: 60px 0;
 
-    text-align: center;
-
     border-top: 1px solid #334155;
+
+    text-align: center;
 }
 
 .footer__copyright {
+    margin: 0;
+
     color: #94a3b8;
 
     font-size: 14px;
 }
 
 .footer__message {
-    margin-top: 16px;
+    margin: 16px 0 0;
 
     font-size: 18px;
     font-weight: bold;
@@ -255,33 +383,34 @@ nav a:hover {
 
     /* Header */
 
-    header {
+    .header {
         flex-direction: column;
         align-items: flex-start;
         gap: 20px;
     }
 
-    header h1 {
+    .header__logo {
         font-size: 32px;
     }
 
-    nav {
+    .header__nav {
         flex-wrap: wrap;
         gap: 12px 20px;
     }
 
-    nav a {
+    .header__nav a {
         font-size: 16px;
     }
 
     /* Hero */
 
     .hero {
-        padding: 64px 0 40px;
+        padding: 72px 0 56px;
     }
 
-    .hero__content {
-        padding-top: 0;
+    .hero__eyebrow {
+        font-size: 12px;
+        line-height: 1.6;
     }
 
     .hero__title {
@@ -290,18 +419,21 @@ nav a:hover {
     }
 
     .hero__description {
+        margin-top: 24px;
+
         font-size: 18px;
         line-height: 1.7;
     }
 
     .hero__button {
+        margin-top: 28px;
         padding: 14px 24px;
     }
 
     /* Articles */
 
     .articles {
-        padding: 40px 0 64px;
+        padding: 56px 0;
     }
 
     .articles__title {
@@ -315,17 +447,28 @@ nav a:hover {
 
     .article-card {
         width: 100%;
+    }
+
+    .article-card__content {
         padding: 20px;
+    }
+
+    .article-card__title {
+        font-size: 19px;
     }
 
     /* About */
 
     .about {
-        padding: 64px 0;
+        padding: 56px 0;
     }
 
     .about__title {
         font-size: 28px;
+    }
+
+    .about__content {
+        margin-top: 28px;
     }
 
     .about__lead {
@@ -348,11 +491,15 @@ nav a:hover {
     /* Contact */
 
     .contact {
-        padding: 64px 0;
+        padding: 56px 0;
     }
 
     .contact__title {
         font-size: 28px;
+    }
+
+    .contact__content {
+        margin-top: 28px;
     }
 
     .contact__text {
