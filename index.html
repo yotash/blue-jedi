@@ -99,17 +99,36 @@
                 noteで公開した最新の記事です。
             </p>
 
-            <div class="articles__list">
+            <div class="articles__carousel">
 
-                <!-- JavaScriptがarticles.jsonを読み込み、
-                     ここに最新3記事を表示します -->
+                <button class="articles__arrow articles__arrow--prev" type="button" aria-label="前の記事を表示">
+                    ←
+                </button>
 
-                <p class="articles__loading">
-                    記事を読み込んでいます。
-                </p>
+                <div class="articles__viewport">
+
+                    <div class="articles__list">
+
+                        <!-- JavaScriptがarticles.jsonを読み込み、
+                 ここに記事を表示します -->
+
+                        <p class="articles__loading">
+                            記事を読み込んでいます。
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <button class="articles__arrow articles__arrow--next" type="button" aria-label="次の記事を表示">
+                    →
+                </button>
 
             </div>
 
+            <div class="articles__indicators" aria-label="カルーセルの現在位置">
+                <!-- JavaScriptで丸を追加します -->
+            </div>
 
 
         </section>
