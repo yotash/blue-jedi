@@ -25,6 +25,8 @@ async function updateAllArticles() {
 
             const contents = result.data.contents;
 
+            console.log(`ページ ${page}: ${contents.length} 件`);
+
             contents.forEach((item) => {
                 allArticles.push({
                     title: item.name || "",
