@@ -43,9 +43,19 @@ img {
 .header__logo {
     margin: 0;
 
+    color: #60a5fa;
+
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 0.06em;
+
+    text-decoration: none;
+
+    transition: color 0.2s ease;
+}
+
+.header__logo:hover {
+    color: white;
 }
 
 .header__nav {
@@ -767,5 +777,142 @@ img {
 @media (prefers-reduced-motion: reduce) {
     .articles__list {
         transition: none;
+    }
+}
+
+/* =========================
+   Manifesto
+========================= */
+
+.manifesto {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 0 120px;
+}
+
+.manifesto-hero {
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0 100px;
+}
+
+.manifesto-hero__eyebrow {
+    margin: 0 0 28px;
+
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+
+    color: #60a5fa;
+    text-transform: uppercase;
+}
+
+.manifesto-hero__title {
+    max-width: 1100px;
+    margin: 0;
+    font-size: clamp(3rem, 7vw, 6.4rem);
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+}
+
+.manifesto-hero__purpose {
+    margin-top: 72px;
+}
+
+.manifesto-hero__purpose .manifesto-hero__eyebrow {
+    margin-bottom: 28px;
+}
+
+.manifesto-hero__intro {
+    margin-top: 0;
+    font-size: 1.05rem;
+}
+
+.manifesto-hero__intro {
+    max-width: 760px;
+
+    margin-top: 72px;
+
+    padding-left: 28px;
+
+    border-left: 4px solid #60a5fa;
+
+    font-size: clamp(1.4rem, 2.3vw, 2rem);
+
+    font-weight: 500;
+
+    line-height: 1.7;
+
+    color: white;
+}
+
+.manifesto-section {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 40px;
+    padding: 96px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.manifesto-section__number {
+    margin: 8px 0 0;
+    font-size: 0.85rem;
+    letter-spacing: 0.18em;
+    color: #60a5fa;
+}
+
+.manifesto-section__content {
+    max-width: 760px;
+}
+
+.manifesto-section__content h2 {
+    margin: 0 0 32px;
+    font-size: clamp(2rem, 4vw, 3.4rem);
+    line-height: 1.25;
+    letter-spacing: -0.03em;
+}
+
+.manifesto-section__content p {
+    margin: 0 0 24px;
+    font-size: 1.05rem;
+    line-height: 2;
+    color: #cbd5e1;
+}
+
+@media (max-width: 768px) {
+    .manifesto {
+        padding: 40px 0 80px;
+    }
+
+    .manifesto-hero {
+        min-height: auto;
+        padding: 80px 0 100px;
+    }
+
+    .manifesto-hero__title {
+        font-size: clamp(2.8rem, 13vw, 4.5rem);
+    }
+
+
+
+    .manifesto-section {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 72px 0;
+    }
+
+    .manifesto-section__number {
+        margin: 0;
+    }
+
+    .manifesto-section__content h2 {
+        margin-bottom: 24px;
+    }
+
+    .manifesto-section__content p {
+        font-size: 1rem;
+        line-height: 1.9;
     }
 }
