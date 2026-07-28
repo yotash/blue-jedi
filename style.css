@@ -917,3 +917,321 @@ img {
         line-height: 1.9;
     }
 }
+
+/* =========================
+   About Page
+========================= */
+
+.about {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* Hero
+------------------------- */
+
+.about-hero {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0 120px;
+}
+
+.about-hero__eyebrow {
+    margin-bottom: 28px;
+    color: #94a3b8;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+}
+
+.about-hero__title {
+    max-width: 1050px;
+    margin: 0;
+    font-size: clamp(3rem, 6.2vw, 6rem);
+    line-height: 1.08;
+    letter-spacing: -0.04em;
+}
+
+.about-hero__description {
+    max-width: 760px;
+    margin-top: 36px;
+    color: #cbd5e1;
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
+
+/* Common section
+------------------------- */
+
+.about-section {
+    padding: 120px 0;
+    border-top: 1px solid #334155;
+}
+
+.about-section__heading {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 24px;
+    margin-bottom: 64px;
+}
+
+.about-section__number {
+    margin: 0;
+    color: #64748b;
+    font-size: 0.9rem;
+    letter-spacing: 0.12em;
+}
+
+.about-section__label {
+    margin: 0 0 16px;
+    color: #60a5fa;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+}
+
+.about-section__title {
+    margin: 0;
+    font-size: clamp(2.2rem, 5vw, 4.8rem);
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+}
+
+
+/* Origin
+------------------------- */
+
+.about-origin__content {
+    max-width: 1100px;
+    margin-left: 104px;
+}
+
+.about-origin__content>p {
+    max-width: 760px;
+    color: #cbd5e1;
+    font-size: 1.05rem;
+    line-height: 2;
+}
+
+.about-origin__works {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin: 56px 0;
+}
+
+.origin-card {
+    min-height: 280px;
+    padding: 40px;
+    background-color: #0a0f1d;
+    border: 1px solid #334155;
+    border-radius: 16px;
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        background-color 0.3s ease;
+}
+
+.origin-card:hover {
+    transform: translateY(-6px);
+    background-color: #162239;
+    border-color: #60a5fa;
+}
+
+.origin-card__category {
+    margin: 0 0 72px;
+    color: #64748b;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+}
+
+.origin-card__title {
+    margin: 0 0 24px;
+    font-size: clamp(1.8rem, 3vw, 3rem);
+    letter-spacing: -0.03em;
+}
+
+.origin-card__text {
+    margin: 0;
+    color: #cbd5e1;
+    line-height: 1.9;
+}
+
+.about-origin__message {
+    max-width: none !important;
+    margin: 100px 0 !important;
+    color: #f8fafc !important;
+    font-size: clamp(2.8rem, 7vw, 7rem) !important;
+    font-weight: 700;
+    line-height: 1.1 !important;
+    letter-spacing: -0.05em;
+}
+
+
+/* Purpose
+------------------------- */
+
+.about-purpose__content {
+    max-width: 760px;
+    margin-left: 104px;
+}
+
+.about-purpose__content p {
+    margin: 0 0 28px;
+    color: #cbd5e1;
+    font-size: 1.05rem;
+    line-height: 2;
+}
+
+.about-purpose__statement {
+    margin-top: 80px !important;
+    color: #f8fafc !important;
+    font-size: clamp(2.5rem, 6vw, 5.5rem) !important;
+    font-weight: 700;
+    line-height: 1.2 !important;
+    letter-spacing: -0.04em;
+}
+
+
+/* Explore
+------------------------- */
+
+.explore-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-left: 104px;
+}
+
+.explore-card {
+    min-height: 220px;
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #080b14;
+    border: 1px solid #334155;
+    border-radius: 16px;
+}
+
+.explore-card__title {
+    margin: 0 0 24px;
+    font-size: clamp(2rem, 3vw, 2.8rem);
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+}
+
+.explore-card__text {
+    max-width: 460px;
+    margin: 0;
+    color: #cbd5e1;
+    line-height: 1.9;
+}
+
+.explore-card__text {
+    max-width: 460px;
+    margin: 0;
+    color: #cbd5e1;
+    line-height: 1.9;
+}
+
+.explore-card__heading {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.explore-card__icon {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.explore-card__title {
+    margin: 0;
+}
+
+/* =========================
+   Origin Card Colors
+========================= */
+
+.star-wars-title {
+    color: #f6d74f;
+    text-shadow: 0 0 18px rgba(246, 215, 79, 0.25);
+}
+
+.blue-giant-title {
+    color: #5da9ff;
+    text-shadow: 0 0 18px rgba(93, 169, 255, 0.3);
+}
+
+@media (max-width: 768px) {
+
+    .about-hero {
+        min-height: auto;
+        padding: 100px 0 80px;
+    }
+
+    .about-hero__title {
+        font-size: clamp(2.8rem, 13vw, 4.5rem);
+    }
+
+    .about-hero__description {
+        font-size: 1rem;
+        line-height: 1.8;
+    }
+
+    .about-section {
+        padding: 80px 0;
+    }
+
+    .about-section__heading {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        margin-bottom: 48px;
+    }
+
+    .about-section__title {
+        font-size: clamp(2.2rem, 11vw, 3.8rem);
+    }
+
+    .about-origin__content,
+    .about-purpose__content,
+    .explore-grid {
+        margin-left: 0;
+    }
+
+    .about-origin__works,
+    .explore-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .origin-card {
+        min-height: auto;
+        padding: 28px;
+    }
+
+    .origin-card__category {
+        margin-bottom: 48px;
+    }
+
+    .about-origin__message {
+        margin: 72px 0 !important;
+        font-size: clamp(2.8rem, 14vw, 4.8rem) !important;
+    }
+
+    .about-purpose__statement {
+        margin-top: 64px !important;
+        font-size: clamp(2.6rem, 13vw, 4.5rem) !important;
+    }
+
+    .explore-card {
+        min-height: auto;
+        padding: 28px;
+    }
