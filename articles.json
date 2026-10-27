@@ -1,5 +1,12 @@
 [
   {
+    "title": "Raspberry Pi Picoで電子工作を始めてみた。LEDの点灯からモールス信号の送信まで",
+    "link": "https://note.com/witty_avocet996/n/nb57e87b381e0",
+    "date": "Mon, 26 Oct 2026 19:48:19 +0900",
+    "image": "https://assets.st-note.com/production/uploads/images/328802799/rectangle_large_type_2_e177ef6cae88b2d8be68243631452847.jpeg?width=800",
+    "description": "自分で書いたプログラムで現実のものを動かす\n最近、電池やモーター、半導体などについて学んでいる。\nきっかけの一つは、イーロン・マスクの伝記を読み、電気自動車やロボットなどのものづくりに興味を持ったことだった。"
+  },
+  {
     "title": "Raspberry Pi Picoを買ってみた。知識を学ぶ側から、ものを作る側へ",
     "link": "https://note.com/witty_avocet996/n/nd6866b02dd49",
     "date": "Fri, 23 Oct 2026 23:33:00 +0900",
@@ -166,12 +173,5 @@
     "date": "Sat, 05 Sep 2026 18:33:32 +0900",
     "image": "https://assets.st-note.com/production/uploads/images/310560814/rectangle_large_type_2_977ff67ed9c0c48eedb9c0019e2ab4dd.jpeg?width=800",
     "description": "180分間最後まで一度も飽きなかった\n映画『ウルフ・オブ・ウォールストリート』は約180分ある。"
-  },
-  {
-    "title": "映画『AIR／エア』感想　一人の選手がただの靴を象徴に変えた",
-    "link": "https://note.com/witty_avocet996/n/nd83c940f922e",
-    "date": "Fri, 04 Sep 2026 23:27:33 +0900",
-    "image": "https://assets.st-note.com/production/uploads/images/310315372/rectangle_large_type_2_7d67443541dfed06ada04952a05b90b9.jpeg?width=800",
-    "description": "1984年の熱気から始まる\n『AIR／エア』は、1984年という時代の空気を一気に見せるモンタージュから始まる。"
   }
 ]
