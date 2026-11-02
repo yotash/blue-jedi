@@ -1,5 +1,19 @@
 [
   {
+    "title": "生成AIはなぜ、無数の可能性から「正解」を生み出せるのか？",
+    "link": "https://note.com/witty_avocet996/n/na92e422822c7",
+    "date": "Sun, 01 Nov 2026 22:10:53 +0900",
+    "image": "https://assets.st-note.com/production/uploads/images/331054272/rectangle_large_type_2_7ccdb447374ab4e5abced251323557dd.jpeg?width=800",
+    "description": "生成AIは、なぜ画像を作れるのか？\n近年、生成AIの進化には驚かされるばかりだ。"
+  },
+  {
+    "title": "『大規模言語モデルは新たな知能か』読書感想｜LLMの仕組みを知ると、AIの未来が見えてくる",
+    "link": "https://note.com/witty_avocet996/n/na4a925fa5115",
+    "date": "Sun, 01 Nov 2026 16:04:55 +0900",
+    "image": "https://assets.st-note.com/production/uploads/images/330916528/rectangle_large_type_2_0a09a7206fb1955c67a318f8fe114a4d.jpeg?width=800",
+    "description": "「ChatGPTは、次の単語を予測しているだけだ」\n生成AIについて調べていると、そんな説明を目にすることがある。"
+  },
+  {
     "title": "映画『クレイフェイス』感想｜顔の傷を埋めても、心の穴は埋められなかった男の悲劇",
     "link": "https://note.com/witty_avocet996/n/ne2418150c04b",
     "date": "Sat, 31 Oct 2026 20:36:59 +0900",
@@ -159,19 +173,5 @@
     "date": "Thu, 10 Sep 2026 09:39:21 +0900",
     "image": "https://assets.st-note.com/production/uploads/images/312125879/rectangle_large_type_2_5e714d9c00fbff8885652f8e715f4e5b.jpg?width=800",
     "description": "英語の前置詞を勉強するとき、私は長い間、\nabout = 〜について"
-  },
-  {
-    "title": "映画、英語、半導体。気になることから世界がつながっていく",
-    "link": "https://note.com/witty_avocet996/n/ncdd2100679bb",
-    "date": "Thu, 10 Sep 2026 00:22:55 +0900",
-    "image": "https://assets.st-note.com/production/uploads/images/312051432/rectangle_large_type_2_a2fda0dc7631f62d88daf687cb862c70.jpeg?width=800",
-    "description": "最近、知りたいことが増え続けている。\n主に学んでいるのは映画、英語、半導体の３つ。"
-  },
-  {
-    "title": "1000以上の工程と数十億個のトランジスタ Micron台湾工場から見る半導体製造",
-    "link": "https://note.com/witty_avocet996/n/n8a9441f803ff",
-    "date": "Mon, 07 Sep 2026 23:36:19 +0900",
-    "image": "https://assets.st-note.com/production/uploads/images/311367163/rectangle_large_type_2_a7a6c95f58818a9232f47adc012d9dd3.jpeg?width=800",
-    "description": "1000以上の工程を止めないための工場\n『Inside Micron Taiwan’s Semiconductor Factory』を見た。"
   }
 ]
