@@ -1,5 +1,26 @@
 [
   {
+    "title": "複雑なAIを支えるシンプルな「分岐と統合」｜Attentionを自作して見えた設計思想",
+    "link": "https://note.com/witty_avocet996/n/n791010744b42",
+    "date": "Mon, 09 Nov 2026 08:34:25 +0900",
+    "image": "https://assets.st-note.com/production/uploads/images/333926728/rectangle_large_type_2_82b1ce45896261c1b82e6f5d03e1f94c.jpeg?width=800",
+    "description": "はじめに｜Attentionを自分で作ってみる\n11月のAI学習も、いよいよLLMの中核技術であるAttentionにたどり着いた。"
+  },
+  {
+    "title": "言葉に座標を与える。｜埋め込み（Embedding）から見えてきたLLMの世界",
+    "link": "https://note.com/witty_avocet996/n/n4fbaa614faa1",
+    "date": "Sun, 08 Nov 2026 20:18:55 +0900",
+    "image": "https://assets.st-note.com/production/uploads/images/333760962/rectangle_large_type_2_0ade93ec92a53949957e811c9022a5c4.jpeg?width=800",
+    "description": "はじめに｜AIは言葉をどうやって扱っているのか？\n11月から始めたAIの学習も、少しずつ進んできた。"
+  },
+  {
+    "title": "AIは使うだけじゃない。LLMの仕組みを学んで見えてきた「作る可能性」",
+    "link": "https://note.com/witty_avocet996/n/nf6adb062f6e1",
+    "date": "Sun, 08 Nov 2026 14:47:38 +0900",
+    "image": "https://assets.st-note.com/production/uploads/images/333636672/rectangle_large_type_2_ac43aff88fe672d8299c36165fc3d091.jpeg?width=800",
+    "description": "はじめに｜AIを使うことと、AIを理解することは違う\n11月から、生成AIについて本格的に学習を始めた。"
+  },
+  {
     "title": "AIの学習は、予測して、間違えて、修正することの繰り返しだった",
     "link": "https://note.com/witty_avocet996/n/nfe59ce864bcc",
     "date": "Sat, 07 Nov 2026 22:45:19 +0900",
@@ -152,26 +173,5 @@
     "date": "Sat, 03 Oct 2026 16:21:57 +0900",
     "image": "https://assets.st-note.com/production/uploads/images/320296324/rectangle_large_type_2_b03515eae6c3048cc7e7faca0d751f6d.jpeg?width=800",
     "description": "スピルバーグ最新作をIMAXで観た\nスティーヴン・スピルバーグの最新作『ディスクロージャー・デイ』をIMAXで観てきた。"
-  },
-  {
-    "title": "映画『トランスフォーマー』感想　ツッコミどころ満載、それでも映像の迫力に圧倒される",
-    "link": "https://note.com/witty_avocet996/n/n5b1fa87136f1",
-    "date": "Thu, 01 Oct 2026 19:52:52 +0900",
-    "image": "https://assets.st-note.com/production/uploads/images/319642305/rectangle_large_type_2_03b5e5385c6ea0582938158425027b1a.jpeg?width=800",
-    "description": "映画『トランスフォーマー』を久しぶりに見返してみた。\n2007年公開で、監督はマイケル・ベイ。"
-  },
-  {
-    "title": "アメリカで見た薬物問題の裏側　『The Crime of the Century』が描くオピオイド危機",
-    "link": "https://note.com/witty_avocet996/n/ne751c93ecad5",
-    "date": "Wed, 30 Sep 2026 21:14:20 +0900",
-    "image": "https://assets.st-note.com/production/uploads/images/319292809/rectangle_large_type_2_4594a1ec8babd9823e9203a258e40cdf.jpeg?width=800",
-    "description": "サンフランシスコとシアトルで見た光景は、どこから始まったのか\n先日、シルバーウィーク中にアメリカ西海岸を旅行した。"
-  },
-  {
-    "title": "映画『アンタッチャブル』感想　「アル・カポネの時代」はなぜ生まれたのか",
-    "link": "https://note.com/witty_avocet996/n/n5b8e9c2dcda2",
-    "date": "Wed, 16 Sep 2026 00:24:19 +0900",
-    "image": "https://assets.st-note.com/production/uploads/images/314095463/rectangle_large_type_2_e7b855936c5635e31d74c400376eadec.jpeg?width=800",
-    "description": "今度のシルバーウィークで、サンフランシスコのアルカトラズ島に行く予定だ。"
   }
 ]
