@@ -1,5 +1,12 @@
 [
   {
+    "title": "同じ構造なのに、中身は別物だった。｜自作GPTの学習で見えたAIの能力の正体",
+    "link": "https://note.com/witty_avocet996/n/n568754ee14dc",
+    "date": "Tue, 10 Nov 2026 00:00:09 +0900",
+    "image": "https://assets.st-note.com/production/uploads/images/334253868/rectangle_large_type_2_7177efcb8074980863e8b7586bd767b4.jpeg?width=800",
+    "description": "はじめに｜ついに自作GPTに学習させる\nこれまで『つくりながら学ぶ！LLM 自作入門』を読みながら、大規模言語モデル（LLM）の仕組みを学んできた。"
+  },
+  {
     "title": "複雑なAIを支えるシンプルな「分岐と統合」｜Attentionを自作して見えた設計思想",
     "link": "https://note.com/witty_avocet996/n/n791010744b42",
     "date": "Mon, 09 Nov 2026 08:34:25 +0900",
@@ -166,12 +173,5 @@
     "date": "Sat, 03 Oct 2026 23:09:12 +0900",
     "image": "https://assets.st-note.com/production/uploads/images/320434184/rectangle_large_type_2_15fecf1a094130b49e089b384f0c34be.jpeg?width=800",
     "description": "シルバーウィークのアメリカ旅行から帰ってきて、少し虚無感のようなものが残っている。\n旅行の間は、毎日どこかへ移動して、何かを見て、次の場所へ向かう。\nけれど日本に戻ると、その流れが急に止まる。"
-  },
-  {
-    "title": "映画『ディスクロージャー・デイ』感想　古典を新しくしたノーランと未知を古くしたスピルバーグ",
-    "link": "https://note.com/witty_avocet996/n/n72edc619fb91",
-    "date": "Sat, 03 Oct 2026 16:21:57 +0900",
-    "image": "https://assets.st-note.com/production/uploads/images/320296324/rectangle_large_type_2_b03515eae6c3048cc7e7faca0d751f6d.jpeg?width=800",
-    "description": "スピルバーグ最新作をIMAXで観た\nスティーヴン・スピルバーグの最新作『ディスクロージャー・デイ』をIMAXで観てきた。"
   }
 ]
