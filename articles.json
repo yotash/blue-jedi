@@ -1,5 +1,19 @@
 [
   {
+    "title": "大AI時代の到来｜LLMを自作して見えた、個人がAIを作る未来",
+    "link": "https://note.com/witty_avocet996/n/nb803058df41d",
+    "date": "Wed, 11 Nov 2026 10:50:19 +0900",
+    "image": "https://assets.st-note.com/production/uploads/images/334759466/rectangle_large_type_2_58c430a4d8309e5d248ab972a62ba5e5.jpeg?width=800",
+    "description": "はじめに｜大AI時代がやってきた\n『ONE PIECE』といえば、大海賊時代の話だ。"
+  },
+  {
+    "title": "AIも賢いだけでは仕事ができなかった。｜ファインチューニングで学ぶ知識と実践の違い",
+    "link": "https://note.com/witty_avocet996/n/n76b390ebcd63",
+    "date": "Wed, 11 Nov 2026 00:39:07 +0900",
+    "image": "https://assets.st-note.com/production/uploads/images/334656481/rectangle_large_type_2_555bf21c9f39edb98f2805d447fa06c8.jpeg?width=800",
+    "description": "はじめに｜賢いAIが仕事をできるとは限らない\n前回までの学習では、GPTのアーキテクチャを構築し、事前学習済みの重みを読み込むことで、自然な文章を生成できるモデルを作った。"
+  },
+  {
     "title": "同じ構造なのに、中身は別物だった。｜自作GPTの学習で見えたAIの能力の正体",
     "link": "https://note.com/witty_avocet996/n/n568754ee14dc",
     "date": "Tue, 10 Nov 2026 00:00:09 +0900",
@@ -159,19 +173,5 @@
     "date": "Tue, 06 Oct 2026 21:05:02 +0900",
     "image": "https://assets.st-note.com/production/uploads/images/321508539/rectangle_large_type_2_1126103c4f5e7a988942e0cb9c0017c6.jpeg?width=800",
     "description": "新作を見る前に、2002年版『バイオハザード』を見てみた\n今度公開される新作『バイオハザード』を見る前に、せっかくなのでシリーズの原点である2002年版『バイオハザード』を見てみた。"
-  },
-  {
-    "title": "映画『ウェポンズ』感想　バイオハザードの監督が仕掛けた「複数視点」の新感覚ホラー",
-    "link": "https://note.com/witty_avocet996/n/nf4f2061d4d54",
-    "date": "Sun, 04 Oct 2026 19:10:41 +0900",
-    "image": "https://assets.st-note.com/production/uploads/images/320741619/rectangle_large_type_2_0eece795b277363229d63a3b6d5bc724.jpeg?width=800",
-    "description": "『バイオハザード』新作の前に監督の過去作を見ておこうと思った\n今度公開される『バイオハザード』の新作を観に行こうと思っている。"
-  },
-  {
-    "title": "映画『ノマドランド』感想　\"See you down the road\" 別れの先にあるhome",
-    "link": "https://note.com/witty_avocet996/n/n4cae1857b0c4",
-    "date": "Sat, 03 Oct 2026 23:09:12 +0900",
-    "image": "https://assets.st-note.com/production/uploads/images/320434184/rectangle_large_type_2_15fecf1a094130b49e089b384f0c34be.jpeg?width=800",
-    "description": "シルバーウィークのアメリカ旅行から帰ってきて、少し虚無感のようなものが残っている。\n旅行の間は、毎日どこかへ移動して、何かを見て、次の場所へ向かう。\nけれど日本に戻ると、その流れが急に止まる。"
   }
 ]
