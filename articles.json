@@ -1,5 +1,12 @@
 [
   {
+    "title": "セキュリティは一度守れば終わりではなかった。｜脆弱性から学ぶ「静的」から「動的」への転換",
+    "link": "https://note.com/witty_avocet996/n/nc08c66e89b27",
+    "date": "Wed, 11 Nov 2026 16:37:59 +0900",
+    "image": "https://assets.st-note.com/production/uploads/images/334865740/rectangle_large_type_2_9a7b65ab054ead62a939d1dd407c8e2f.jpeg?width=800",
+    "description": "なぜ今、サイバー攻撃を学ぶのか\n最近、企業へのサイバー攻撃や情報漏えいに関するニュースが多い。"
+  },
+  {
     "title": "大AI時代の到来｜LLMを自作して見えた、個人がAIを作る未来",
     "link": "https://note.com/witty_avocet996/n/nb803058df41d",
     "date": "Wed, 11 Nov 2026 10:50:19 +0900",
@@ -166,12 +173,5 @@
     "date": "Tue, 13 Oct 2026 01:16:32 +0900",
     "image": "https://assets.st-note.com/production/uploads/images/323745842/rectangle_large_type_2_7c73ce716720d38ddb0782d0dcaf2c4b.jpeg?width=800",
     "description": "先日、映画『エジソンズ・ゲーム』を鑑賞した。\n直流と交流のどちらが次世代の電力供給システムになるのか。\n19世紀末のアメリカで繰り広げられた「電流戦争」を描いた作品だ。"
-  },
-  {
-    "title": "映画『バイオハザード』感想　90年代ジャンル映画をゲームのテンポで再構成した１本",
-    "link": "https://note.com/witty_avocet996/n/n615ef81c60a5",
-    "date": "Tue, 06 Oct 2026 21:05:02 +0900",
-    "image": "https://assets.st-note.com/production/uploads/images/321508539/rectangle_large_type_2_1126103c4f5e7a988942e0cb9c0017c6.jpeg?width=800",
-    "description": "新作を見る前に、2002年版『バイオハザード』を見てみた\n今度公開される新作『バイオハザード』を見る前に、せっかくなのでシリーズの原点である2002年版『バイオハザード』を見てみた。"
   }
 ]
